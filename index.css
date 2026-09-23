@@ -7,15 +7,19 @@
 
 body {
     margin: 0;
+  background-color: #1B244A;
 }
 
 .container {
     display: flex;
+    width: 100%;
+    max-width: 700px;
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #1B244A;
     text-align: center;
     padding: 40px 20px 60px 20px;
+    margin: 0 auto;
 }
 .home-heading {
     font-family: Verdana;
